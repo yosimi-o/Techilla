@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+       <head>
+          <title>Sign Up</title>
+          <link rel="stylesheet" href="./css/bootstrap.min.css">
+          <link rel="stylesheet" href="./css/sign-style.css">
+          <script src="./jquery/jquery-3.3.1.min.js"></script>
+          <script src="./js/bootstrap.min.js"></script>
+       </head>  
+  <body>
+
+           <!-- Navigation bar starts here             
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">LOGO</a>
+        </div>
+        <form class="navbar-form navbar-left" action="">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search Food items">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit">
+                <i class="fas fa-search-minus"></i>
+              </button>
+            </div>
+          </div>
+        </form> 
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">HOME</a></li>
+          </ul>
+          
+          
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href= "signup.html">SIGN UP</a></li>
+            <li><a href= "login.html">LOGIN</a></li>
+            <li><a href= "#faq">FAQS</a></li>
+            <li><a href= "#contact">CONTACT US</a></li>
+            <li><a href="#">CART <i class="fas fa-shopping-cart"></i></a></li>
+          
+              
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">HELP
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">How to make order</a></li>
+              <li><a href="#">How to Shop</a></li>
+              <li><a href="#">Connect to a chat box</a></li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav> -->
+  
+    <!--              Navigation bar ends here                  -->
+
+    <!--    Jumbotron starts here    -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h2>SIGN UP</h2>      
+      </div>
+    </div>
+    <!--    Jumbotron ends here    -->
+
+
+    <div class="container">
+      <form action="">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your Name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your Email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter your password" name="pwd" minlength="5">
+        </div>
+        <div class="form-group">
+          <label for="address">Address:</label>
+          <input type="add" class="form-control" id="address" placeholder="Enter your Address" name="address" required>
+        </div>
+        <div class="form-group">
+          <label for="phone-number">State:</label><br>
+          <select class="select-dropdown" name="state" id="state">
+            <option value="no select" checked="">Select a state from the list</option>
+            <option value="Lagos">Lagos</option>
+            <option value="Abuja">Abuja</option>
+            <option value="PortHacourt">PortHacourt</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="phone-number">Location:</label><br>
+          <select class="select-dropdown" name="location" id="location">
+            <option value="no select">Select a location from the list</option>
+            <option value="Abaranje">Abaranje</option>
+            <option value="Akoka">Akoka</option>
+            <option value="Ikeja">Ikeja</option>
+            <option value="Ikotun">Ikotun</option>
+            <option value="Ikorodu">Ikorodu</option>
+            <option value="Lagos Island">Lagos Island</option>
+            <option value="Mushin">Mushin</option>
+            <option value="Victoria Garden City">Victoria Garden City</option>
+            <option value="Yaba">Yaba</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="phone-number">Phone Number:</label>
+          <input type="number" class="form-control" id="phone-number" placeholder="eg. +234 8012345678" name="phone-number" required>
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+        </div>
+        <button type="submit" class="btn"><a href="login.html">Submit</a></button>
+      </form>
+    </div>
+  </body>
+</html>

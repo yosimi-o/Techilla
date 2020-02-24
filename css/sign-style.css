@@ -1,0 +1,16 @@
+.jumbotron {
+  color: rgb(248, 75, 12);
+  background-color: transparent;
+}
+
+.select-dropdown {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border-radius: 5px;
+  border-color: rgb(204, 203, 203);
+}
+
+.btn {
+  background-color: rgb(248, 75, 12);
+  color: #fff;
+}
